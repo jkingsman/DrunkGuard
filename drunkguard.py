@@ -33,14 +33,3 @@ def init_hook(conduit):
 			conduit.info(2, 'Looks like you\'re sober enough to use yum - be careful!')
 		else:
 			 conduit.info(2, 'Happy trails from the drunkGuard module. Have a great weekend!')	
-
-def drunkCheck():
-        rand1 = randint(0, 150)
-        rand2 = randint(0, 150)
-        sum = rand1 + rand2
-
-        sumAttempt = raw_input('What is ' + str(rand1) + ' + ' + str(rand2) + '? ')
-	if int(sumAttempt) == sum:
-		conduit.info(2, 'Well done!')
-	else:
-	        raise PluginYumExit('That\'s not right... You\'re drunk! No yum for you.')
