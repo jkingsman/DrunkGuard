@@ -25,7 +25,7 @@ sudo mv drunkguard.conf /etc/yum/pluginconf.d/drunkguard.conf
 sudo mv drunkguard.py /usr/lib/yum-plugins/drunkguard.py
 ```
 
-You can customize your desired days and hours for drunk checking to be enabled can be edited in `drunkguard.py`.
+You can customize your desired days and hours for drunk checking in `drunkguard.py`.
 
 You're now good to go!
 
