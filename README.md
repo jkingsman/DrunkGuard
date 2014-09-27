@@ -33,5 +33,12 @@ You're now good to go!
 [jkingsman@eruditorum ~]$ yum remove git
 Loaded plugins: drunkguard, fastestmirror
 Hm... are you drunk?
-What is 95 + 13?
+What is 18 + 28? 46
+Well done!
+What is 100 + 94? 194
+Well done!
+What is 45 + 49? 93
+
+That's not right... You're drunk! No yum for you.
+
 ```
