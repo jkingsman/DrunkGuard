@@ -13,7 +13,7 @@ def init_hook(conduit):
 	blockedDays =[4,5,6]
 	
 	#hour (24 hr format) that the night begins and ends
-	nightStart = 11
+	nightStart = 20 
 	nightEnd = 6
 
 	if currentWeekday in blockedDays:
