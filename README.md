@@ -25,7 +25,7 @@ sudo mv drunkguard.conf /etc/yum/pluginconf.d/drunkguard.conf
 sudo mv drunkguard.py /usr/lib/yum-plugins/drunkguard.py
 ```
 
-You can customize your desired days and hours for drunk checking in `drunkguard.py`. The default is 8PM to 6AM.
+You can customize your desired days and hours for drunk checking in `drunkguard.py`. The default is 8PM to 6AM, Friday, Saturday, and Sunday.
 
 You're now good to go!
 
